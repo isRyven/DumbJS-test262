@@ -1,0 +1,1293 @@
+Searching 11576 files for "Array.prototype.forEach - 'length' is a string containing +/-Infinity" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.18/15.4.4.18-3-14.js:
+    6  /**
+    7   * @path ch15/15.4/15.4.4/15.4.4.18/15.4.4.18-3-14.js
+    8:  * @description Array.prototype.forEach - 'length' is a string containing +/-Infinity
+    9   */
+   10  
+
+1 match in 1 file
+
+
+Searching 11576 files for "Array.prototype.lastIndexOf - value of 'length' is a string containing +/-Infinity" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.15/15.4.4.15-3-14.js:
+    6  /**
+    7   * @path ch15/15.4/15.4.4/15.4.4.15/15.4.4.15-3-14.js
+    8:  * @description Array.prototype.lastIndexOf - value of 'length' is a string containing +/-Infinity
+    9   */
+   10  
+
+1 match in 1 file
+
+
+Searching 11576 files for "Array.prototype.reduceRight - value of 'length' is a string containing +/-Infinity" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.22/15.4.4.22-3-14.js:
+    6  /**
+    7   * @path ch15/15.4/15.4.4/15.4.4.22/15.4.4.22-3-14.js
+    8:  * @description Array.prototype.reduceRight - value of 'length' is a string containing +/-Infinity
+    9   */
+   10  
+
+1 match in 1 file
+
+
+Searching 11576 files for "Array.prototype.reduce - 'length' is a string containing +/-Infinity" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.21/15.4.4.21-3-14.js:
+    6  /**
+    7   * @path ch15/15.4/15.4.4/15.4.4.21/15.4.4.21-3-14.js
+    8:  * @description Array.prototype.reduce - 'length' is a string containing +/-Infinity
+    9   */
+   10  
+
+1 match in 1 file
+
+
+Searching 11576 files for ""Infinity"" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/test-result.txt:
+ 5697  [pass] Checking parseFloat.prototype
+ 5698  [pass] StrWhiteSpaceChar :: TAB (U+0009)
+ 5699: [pass] "Infinity"+"some string"
+ 5700  [pass] Checking for Number object
+ 5701  [pass] StrDecimalLiteral not contain HexIntegerLiteral
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A3_T1.js:
+   20  
+   21  // CHECK#3
+   22: if (!(+("\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000Infinity\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000") == Number("Infinity"))) {
+   23:   $ERROR('#3: +("\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000Infinity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000") == Number("Infinity")');
+   24  }
+   25  
+   26  // CHECK#4
+   27: if (!(Number("\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000-Infinity\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000") == Number(-"Infinity"))) {
+   28    $ERROR('#4: Number("\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000-Infinity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000") == Number("-Infinity")');
+   29  }
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A3_T2.js:
+   24  
+   25  // CHECK#3
+   26: if (!(Number(dynaString("\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029Infi", "nity\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000")) == Number("Infinity"))) {
+   27:   $ERROR('#3: Number("\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029Infi"+"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000") == Number("Infinity")');
+   28  }
+   29  
+   30  // CHECK#4
+   31: if (!(Number(dynaString("\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029-Infi", "nity\u0009\u000C\u0020\u00A0\u000B\u000A\u000D\u2028\u2029\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000")) == Number(-"Infinity"))) {
+   32    $ERROR('#4: Number("\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029-Infi"+"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000") == Number("-Infinity")');
+   33  }
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A4_T1.js:
+   20  
+   21  // CHECK#3
+   22: if (Number("+Infinity") !== Number("Infinity")) {
+   23:   $ERROR('#3: Number("+Infinity") === Number("Infinity")');
+   24  }
+   25  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A4_T2.js:
+   24  
+   25  // CHECK#3
+   26: if (Number(dynaString("+Infi", "nity")) !== Number("Infinity")) {
+   27:   $ERROR('#3: Number("+Infin"+"ity") === Number("Infinity")');
+   28  }
+   29  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A5_T1.js:
+   21  
+   22  // CHECK#3
+   23: if (Number("-Infinity") !== -Number("Infinity")) {
+   24:   $ERROR('#3: Number("-Infinity") === -Number("Infinity")');
+   25  }
+   26  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A5_T3.js:
+   25  
+   26  // CHECK#3
+   27: if (Number(dynaString("-Infi", "nity")) !== -Number("Infinity")) {
+   28:   $ERROR('#3: Number("-Infi"+"nity") === -Number("Infinity")');
+   29  }
+   30  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.3/9.3.1/S9.3.1_A6_T1.js:
+   11  
+   12  // CHECK#1
+   13: if (Number("Infinity") !== Number.POSITIVE_INFINITY) {
+   14:   $ERROR('#1: Number("Infinity") === Number.POSITIVE_INFINITY');
+   15  }
+   16  
+   17  // CHECK#2
+   18: if (Number("Infinity") !== 10e10000) {
+   19:   $ERROR('#2: Number("Infinity") === 10e10000');
+   20  }
+   21  
+   22  // CHECK#3
+   23: if (Number("Infinity") !== 10E10000) {
+   24:   $ERROR('#3: Number("Infinity") === 10E10000');
+   25  }
+   26  
+   27  // CHECK#4
+   28: if (Number("Infinity") !== Number("10e10000")) {
+   29:   $ERROR('#4: Number("Infinity") === Number("10e10000")');
+   30  }
+   31  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch09/9.8/9.8.1/S9.8.1_A4.js:
+    3  
+    4  /**
+    5:  * If m is infinity, return the string "Infinity"
+    6   *
+    7   * @path ch09/9.8/9.8.1/S9.8.1_A4.js
+    .
+   10  
+   11  // CHECK#1
+   12: if (String(Infinity) !== "Infinity") {
+   13:   $ERROR('#1: String(Infinity) === "Infinity". Actual: ' + (String(Infinity)));
+   14  }
+   15  
+   16  // CHECK#2
+   17: if (String(Number.POSITIVE_INFINITY) !== "Infinity") {
+   18:   $ERROR('#2: String(Number.POSITIVE_INFINITY) === "Infinity". Actual: ' + (String(Number.POSITIVE_INFINITY)));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch11/11.2/11.2.1/S11.2.1_A4_T1.js:
+   13  if (typeof this['NaN']  === "undefined")  $ERROR('#2: typeof this["NaN"] !== "undefined"');
+   14  if (typeof this.Infinity  === "undefined")  $ERROR('#3: typeof this.Infinity !== "undefined"');
+   15: if (typeof this['Infinity']  === "undefined")  $ERROR('#4: typeof this["Infinity"] !== "undefined"');
+   16  if (typeof this.parseInt  === "undefined")  $ERROR('#5: typeof this.parseInt !== "undefined"');
+   17  if (typeof this['parseInt'] === "undefined")  $ERROR('#6: typeof this["parseInt"] !== "undefined"');
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch11/11.4/11.4.3/S11.4.3_A3.5.js:
+   20  
+   21  //CHECK#3
+   22: if (typeof "Infinity" !== "string") {
+   23:   $ERROR('#3: typeof "Infinity" === "string". Actual: ' + (typeof "Infinity"));
+   24  }
+   25  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch11/11.8/11.8.7/S11.8.7_A4.js:
+   19  var object = {};
+   20  object.Infinity = 1;
+   21: if (Infinity in object !== "Infinity" in object) {  
+   22:   $ERROR('#2: "var object = {}; object.Infinity = 1; Infinity in object === "Infinity" in object');  
+   23  }
+   24  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.10_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.10_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.10_T3.js:
+   35  var st_parseInt = "parseInt";
+   36  var st_NaN = "NaN";
+   37: var st_Infinity = "Infinity";
+   38  var st_eval = "eval";
+   39  var st_parseFloat = "parseFloat";
+   ..
+  122  }
+  123  
+  124: if(!(st_Infinity === "Infinity")){
+  125:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  126  }
+  127  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.10_T4.js:
+   35  var st_parseInt = "parseInt";
+   36  var st_NaN = "NaN";
+   37: var st_Infinity = "Infinity";
+   38  var st_eval = "eval";
+   39  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.10_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  113  }
+  114  
+  115: if(!(st_Infinity === "Infinity")){
+  116:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  117  }
+  118  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.11_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.11_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.11_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  121  }
+  122  
+  123: if(!(st_Infinity === "Infinity")){
+  124:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  125  }
+  126  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.11_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.11_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  124  }
+  125  
+  126: if(!(st_Infinity === "Infinity")){
+  127:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  128  }
+  129  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.12_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.12_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.12_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  119  }
+  120  
+  121: if(!(st_Infinity === "Infinity")){
+  122:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  123  }
+  124  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.12_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.12_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  123  }
+  124  
+  125: if(!(st_Infinity === "Infinity")){
+  126:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  127  }
+  128  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.1_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.1_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.1_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  118  }
+  119  
+  120: if(!(st_Infinity === "Infinity")){
+  121:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  122  }
+  123  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.2_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.2_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.2_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  119  }
+  120  
+  121: if(!(st_Infinity === "Infinity")){
+  122:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  123  }
+  124  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.2_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.2_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  119  }
+  120  
+  121: if(!(st_Infinity === "Infinity")){
+  122:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  123  }
+  124  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.3_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.3_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.3_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  115  }
+  116  
+  117: if(!(st_Infinity === "Infinity")){
+  118:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  119  }
+  120  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.3_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.3_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  123  }
+  124  
+  125: if(!(st_Infinity === "Infinity")){
+  126:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  127  }
+  128  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.4_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.4_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.4_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  121  }
+  122  
+  123: if(!(st_Infinity === "Infinity")){
+  124:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  125  }
+  126  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.4_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.4_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  113  }
+  114  
+  115: if(!(st_Infinity === "Infinity")){
+  116:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  117  }
+  118  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.5_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.5_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.5_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  126  }
+  127  
+  128: if(!(st_Infinity === "Infinity")){
+  129:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  130  }
+  131  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.5_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.5_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  118  }
+  119  
+  120: if(!(st_Infinity === "Infinity")){
+  121:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  122  }
+  123  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.6_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.6_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.6_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  120  }
+  121  
+  122: if(!(st_Infinity === "Infinity")){
+  123:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  124  }
+  125  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.7_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.7_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.7_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  119  }
+  120  
+  121: if(!(st_Infinity === "Infinity")){
+  122:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  123  }
+  124  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.7_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.7_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  123  }
+  124  
+  125: if(!(st_Infinity === "Infinity")){
+  126:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  127  }
+  128  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.8_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.8_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.8_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  115  }
+  116  
+  117: if(!(st_Infinity === "Infinity")){
+  118:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  119  }
+  120  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.8_T4.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.8_T5.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  123  }
+  124  
+  125: if(!(st_Infinity === "Infinity")){
+  126:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  127  }
+  128  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.9_T1.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.9_T2.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch12/12.10/S12.10_A1.9_T3.js:
+   34  var st_parseInt = "parseInt";
+   35  var st_NaN = "NaN";
+   36: var st_Infinity = "Infinity";
+   37  var st_eval = "eval";
+   38  var st_parseFloat = "parseFloat";
+   ..
+  118  }
+  119  
+  120: if(!(st_Infinity === "Infinity")){
+  121:   $ERROR('#13: st_Infinity === "Infinity". Actual:  st_Infinity ==='+ st_Infinity  );
+  122  }
+  123  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.1/15.1.1.2/S15.1.1.2_A3.2.js:
+   11  // CHECK#1
+   12  for (var prop in this) {
+   13:   if (prop === "Infinity") {
+   14  	$ERROR('#1: The Infinity is DontEnum');
+   15    }	 	
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.2/S15.1.2.2_A1_T6.js:
+   15  
+   16  //CHECK#2
+   17: if (String(parseInt(new String("Infinity"))) !== "NaN") {
+   18:   $ERROR('#2: String(parseInt(new String("Infinity"))) === "NaN". Actual: ' + (String(parseInt(new String("Infinity")))));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.2/S15.1.2.2_A3.1_T6.js:
+   15  
+   16  //CHECK#2
+   17: if (parseInt("11", new String("Infinity")) !== parseInt("11", Infinity)) {
+   18:   $ERROR('#2: parseInt("11", new String("Infinity")) === parseInt("11", Infinity). Actual: ' + (parseInt("11", new String("Infinity"))));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A1_T2.js:
+   15  
+   16  //CHECK#2
+   17: if (parseFloat(Infinity) !== parseFloat("Infinity")) {
+   18:   $ERROR('#2: parseFloat(Infinity) === parseFloat("Infinity"). Actual: ' + (parseFloat(Infinity)));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A1_T5.js:
+   15  
+   16  //CHECK#2
+   17: if (parseFloat(new Number(Infinity)) !== parseFloat("Infinity")) {
+   18:   $ERROR('#2: parseFloat(new Number(Infinity)) === parseFloat("Infinity"). Actual: ' + (parseFloat(new Number(Infinity))));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A1_T6.js:
+   15  
+   16  //CHECK#2
+   17: if (parseFloat(new String("Infinity")) !== parseFloat("Infinity")) {
+   18:   $ERROR('#2: parseFloat(new String("Infinity")) === parseFloat("Infinity"). Actual: ' + (parseFloat(new String("Infinity"))));
+   19  }
+   20  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A4_T4.js:
+    7   *
+    8   * @path ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A4_T4.js
+    9:  * @description "Infinity"+"some string"
+   10   */
+   11  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.1/15.1.2/15.1.2.3/S15.1.2.3_A5_T1.js:
+   10  
+   11  //CHECK#1
+   12: if (parseFloat("Infinity") !== Number.POSITIVE_INFINITY) {
+   13:   $ERROR('#1: parseFloat("Infinity") === Number.POSITIVE_INFINITY. Actual: ' + (parseFloat("Infinity")));
+   14  }
+   15  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.3/15.2.3.3-2-13.js:
+   11  
+   12  function testcase() {
+   13:         var obj = { "Infinity": 1 };
+   14  
+   15          var desc = Object.getOwnPropertyDescriptor(obj, Infinity);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.3/15.2.3.3-2-14.js:
+   11  
+   12  function testcase() {
+   13:         var obj = { "Infinity": 1 };
+   14  
+   15          var desc = Object.getOwnPropertyDescriptor(obj, +Infinity);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.3/15.2.3.3-4-179.js:
+   12  function testcase() {
+   13    // in non-strict mode, 'this' is bound to the global object.
+   14:   var desc = Object.getOwnPropertyDescriptor(fnGlobalObject(),  "Infinity");
+   15  
+   16    if (desc.writable === false &&
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.4/15.2.3.4-4-1.js:
+   12  function testcase() {
+   13          var result = Object.getOwnPropertyNames(fnGlobalObject());
+   14:         var expResult = ["NaN", "Infinity", "undefined", "eval", "parseInt", "parseFloat", "isNaN", "isFinite", "decodeURI", "decodeURIComponent", "encodeURI", "encodeURIComponent", "Object", "Function", "Array", "String", "Boolean", "Number", "Date", "Date", "RegExp", "Error", "EvalError", "RangeError", "ReferenceError", "SyntaxError", "TypeError", "URIError", "Math", "JSON"];
+   15  
+   16          var result1 = {};
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.6/15.2.3.6-2-11.js:
+   14          Object.defineProperty(obj, Infinity, {});
+   15  
+   16:         return obj.hasOwnProperty("Infinity");
+   17  
+   18      }
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.2/15.2.3/15.2.3.6/15.2.3.6-2-12.js:
+   14          Object.defineProperty(obj, +Infinity, {});
+   15  
+   16:         return obj.hasOwnProperty("Infinity");
+   17  
+   18      }
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/S15.4_A1.1_T2.js:
+   30  
+   31  //CHECK#4
+   32: if (y["Infinity"] !== 1) {
+   33:   $ERROR('#4: y = []; y[Number.POSITIVE_INFINITY] = 1; y["Infinity"] === 1. Actual: ' + (y["Infinity"]));  
+   34  } 
+   35  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.14/15.4.4.14-3-14.js:
+   12  function testcase() {
+   13  
+   14:         var objOne = { 0: true, 1: true, length: "Infinity" };
+   15          var objTwo = { 0: true, 1: true, length: "+Infinity" };
+   16          var objThree = { 0: true, 1: true, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.14/15.4.4.14-5-16.js:
+   13          var arr = [];
+   14          arr[Math.pow(2, 32) - 2] = true; //length is the max value of Uint type
+   15:         return arr.indexOf(true, "Infinity") === -1;
+   16      }
+   17  runTestCase(testcase);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.15/15.4.4.15-3-14.js:
+   12  function testcase() {
+   13  
+   14:         // var objOne = { 0: true, 1: true, length: "Infinity" };
+   15          // var objTwo = { 0: true, 1: true, length: "+Infinity" };
+   16          // var objThree = { 0: true, 1: true, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.15/15.4.4.15-5-16.js:
+   13          var arr = [];
+   14          arr[Math.pow(2, 32) - 2] = true; // length is the max value of Uint type
+   15:         return arr.lastIndexOf(true, "Infinity") === (Math.pow(2, 32) - 2);
+   16      }
+   17  runTestCase(testcase);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.16/15.4.4.16-3-14.js:
+   19          }
+   20  
+   21:         var objOne = { 0: 9, length: "Infinity" };
+   22          var objTwo = { 0: 9, length: "+Infinity" };
+   23          var objThree = { 0: 9, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.17/15.4.4.17-3-14.js:
+   19          }
+   20  
+   21:         var objOne = { 0: 11, length: "Infinity" };
+   22          var objTwo = { 0: 11, length: "+Infinity" };
+   23          var objThree = { 0: 11, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.18/15.4.4.18-3-14.js:
+   28          }
+   29  
+   30:         // var obj1 = { 0: 9, length: "Infinity" };
+   31          // var obj2 = { 0: 9, length: "-Infinity" };
+   32          // var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.19/15.4.4.19-3-14.js:
+   15          }
+   16  
+   17:         var obj = { 0: 9, length: "Infinity" };
+   18  
+   19          var newArr = Array.prototype.map.call(obj, callbackfn);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.20/15.4.4.20-3-14.js:
+   31          }
+   32  
+   33:         var obj1 = { 0: 9, length: "Infinity" };
+   34          var obj2 = { 0: 9, length: "-Infinity" };
+   35          var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.21/15.4.4.21-3-14.js:
+   31          }
+   32  
+   33:         // var obj1 = { 0: 9, length: "Infinity" };
+   34          // var obj2 = { 0: 9, length: "-Infinity" };
+   35          // var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.22/15.4.4.22-3-14.js:
+   28          }
+   29  
+   30:         // var obj1 = { 0: 9, length: "Infinity" };
+   31          // var obj2 = { 0: 9, length: "-Infinity" };
+   32          // var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.5/15.5.1/S15.5.1.1_A1_T11.js:
+   21  //////////////////////////////////////////////////////////////////////////////
+   22  //CHECK#2
+   23: if (__str !== "Infinity") {
+   24:   $ERROR('#2: __str = String(1/0); __str === "Infinity". Actual: __str ==='+__str ); 
+   25  }
+   26  //
+   ..
+   57  //////////////////////////////////////////////////////////////////////////////
+   58  //CHECK#6
+   59: if (__str !== "Infinity") {
+   60:   $ERROR('#6: __str = String(Infinity); __str === "Infinity". Actual: __str ==='+__str ); 
+   61  }
+   62  //
+   ..
+   93  //////////////////////////////////////////////////////////////////////////////
+   94  //CHECK#10
+   95: if (__str !== "Infinity") {
+   96:   $ERROR('#10: __str = String(Number.POSITIVE_INFINITY); __str === "Infinity". Actual: __str ==='+__str ); 
+   97  }
+   98  //
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.5/15.5.4/15.5.4.20/15.5.4.20-2-10.js:
+   11  
+   12  function testcase() {
+   13:         return String.prototype.trim.call(+Infinity) === "Infinity";
+   14      }
+   15  runTestCase(testcase);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.5/15.5.4/15.5.4.20/15.5.4.20-2-9.js:
+   11  
+   12  function testcase() {
+   13:         return String.prototype.trim.call(Infinity) === "Infinity";
+   14      }
+   15  runTestCase(testcase);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A1_T01.js:
+   42  
+   43  //CHECK#7
+   44: if((new Number(Number.POSITIVE_INFINITY)).toString() !== "Infinity"){
+   45:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString() === "Infinity"');
+   46  }
+   47  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A1_T02.js:
+   42  
+   43  //CHECK#7
+   44: if((new Number(Number.POSITIVE_INFINITY)).toString(10) !== "Infinity"){
+   45:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(10) === "Infinity"');
+   46  }
+   47  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A1_T03.js:
+   42  
+   43  //CHECK#7
+   44: if((new Number(Number.POSITIVE_INFINITY)).toString(undefined) !== "Infinity"){
+   45:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(undefined) === "Infinity"');
+   46  }
+   47  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T01.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(2) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(2) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T02.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(3) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(3) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T03.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(4) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(4) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T04.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(5) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(5) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T05.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(6) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(6) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T06.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(7) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(7) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T07.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(8) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(8) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T08.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(9) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(9) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T09.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(11) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(11) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T10.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(12) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(12) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T11.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(13) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(13) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T12.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(14) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(14) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T13.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(15) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(15) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T14.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(16) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(16) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T15.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(17) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(17) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T16.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(18) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(18) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T17.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(19) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(19) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T18.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(20) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(20) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T19.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(21) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(21) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T20.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(22) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(22) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T21.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(23) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(23) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T22.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(24) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(24) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T23.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(25) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(25) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T24.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(26) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(26) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T25.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(27) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(27) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T26.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(28) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(28) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T27.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(29) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(29) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T28.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(30) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(30) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T29.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(31) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(31) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T30.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(32) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(32) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T31.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(33) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(33) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T32.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(34) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(34) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T33.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(35) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(35) === "Infinity"');
+   45  }
+   46  
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.7/15.7.4/15.7.4.2/S15.7.4.2_A2_T34.js:
+   41  
+   42  //CHECK#7
+   43: if((new Number(Number.POSITIVE_INFINITY)).toString(36) !== "Infinity"){
+   44:   $ERROR('#7: (new Number(Number.POSITIVE_INFINITY)).toString(36) === "Infinity"');
+   45  }
+   46  
+
+252 matches across 132 files
+
+
+Searching 11576 files for "length: "Infinity"" (case sensitive)
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.14/15.4.4.14-3-14.js:
+   12  function testcase() {
+   13  
+   14:         var objOne = { 0: true, 1: true, length: "Infinity" };
+   15          var objTwo = { 0: true, 1: true, length: "+Infinity" };
+   16          var objThree = { 0: true, 1: true, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.15/15.4.4.15-3-14.js:
+   12  function testcase() {
+   13  
+   14:         // var objOne = { 0: true, 1: true, length: "Infinity" };
+   15          // var objTwo = { 0: true, 1: true, length: "+Infinity" };
+   16          // var objThree = { 0: true, 1: true, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.16/15.4.4.16-3-14.js:
+   19          }
+   20  
+   21:         var objOne = { 0: 9, length: "Infinity" };
+   22          var objTwo = { 0: 9, length: "+Infinity" };
+   23          var objThree = { 0: 9, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.17/15.4.4.17-3-14.js:
+   19          }
+   20  
+   21:         var objOne = { 0: 11, length: "Infinity" };
+   22          var objTwo = { 0: 11, length: "+Infinity" };
+   23          var objThree = { 0: 11, length: "-Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.18/15.4.4.18-3-14.js:
+   28          }
+   29  
+   30:         // var obj1 = { 0: 9, length: "Infinity" };
+   31          // var obj2 = { 0: 9, length: "-Infinity" };
+   32          // var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.19/15.4.4.19-3-14.js:
+   15          }
+   16  
+   17:         var obj = { 0: 9, length: "Infinity" };
+   18  
+   19          var newArr = Array.prototype.map.call(obj, callbackfn);
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.20/15.4.4.20-3-14.js:
+   31          }
+   32  
+   33:         var obj1 = { 0: 9, length: "Infinity" };
+   34          var obj2 = { 0: 9, length: "-Infinity" };
+   35          var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.21/15.4.4.21-3-14.js:
+   31          }
+   32  
+   33:         // var obj1 = { 0: 9, length: "Infinity" };
+   34          // var obj2 = { 0: 9, length: "-Infinity" };
+   35          // var obj3 = { 0: 9, length: "+Infinity" };
+
+/home/dev/Projects/play-quickjs/main/build/es5-2/TestCases/ch15/15.4/15.4.4/15.4.4.22/15.4.4.22-3-14.js:
+   28          }
+   29  
+   30:         // var obj1 = { 0: 9, length: "Infinity" };
+   31          // var obj2 = { 0: 9, length: "-Infinity" };
+   32          // var obj3 = { 0: 9, length: "+Infinity" };
+
+9 matches across 9 files
